@@ -1,0 +1,9 @@
+Error:CMake '3.10.2' was not found in PATH or by cmake.dir property.
+
+Mr Cui 2019-05-08 16:57:04  7457  收藏 1
+分类专栏： android进阶
+版权
+报错原因是没有安装cmake工具，在如下位置安装即可：
+在这里插入图片描述
+
+https://blog.csdn.net/cui130/article/details/89961295
