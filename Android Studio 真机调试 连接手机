@@ -1,0 +1,65 @@
+Android Studio 真机调试 连接手机
+前提：adb环境已经配置
+
+ 
+
+手机端：
+
+ 
+
+　　1、打开手机开发者权限，”设置“ 中找到 “版本号”，连续多次点击，会提示打开“开发者”。我的是 “设置” --> "关于手机" --> “版本号”
+
+ 
+
+　　2、手机允许“USB调试”
+
+ 
+
+ 
+
+ 
+
+电脑端：
+
+　　1、打开Android Studio --> 选择“file” --> ‘Settings’
+
+　　
+
+ 
+
+　　2、勾选Google USB driver
+
+　　3、查看需要连接的手机的Andriod版本号，还是在这个页面，SDK Platforms --> 勾选对应的手机版本号 -->下载完了就行
+
+
+
+4、打开“设备管理器”，找到自己的手机型号，鼠标右键，选择“更新驱动程序”
+
+
+
+5、选第二个“浏览我的计算机...”--> 找到刚刚安装GOOGLE USB DRIVER的目录，复制 ，粘贴到此电脑，找到这个目录，复制，我的是“C:\Users\oreo_xq\AppData\Local\Android\Sdk\extras\google\usb_driver” --> 粘贴到刚刚的设备管理器那里 --> "下一步"
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ Android Studio中 --> "RUN" --> "RUN 'APP'" --> 选择你的手机 --> 运行完了手机确认就OK啦
+
+
+
+
+
+ 
+
+https://blog.csdn.net/qq_35251502/article/details/80770448
+https://www.cnblogs.com/oreox/p/10662066.html
