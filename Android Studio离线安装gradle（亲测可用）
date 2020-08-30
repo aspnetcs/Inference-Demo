@@ -1,0 +1,22 @@
+Android Studio离线安装gradle（亲测可用）
+
+鲁鲁晓生 2015-11-21 14:00:09  34005  收藏 6
+分类专栏： Android Android常见问题 文章标签： android studiogradle离线安装
+版权
+      最近也是在试着熟悉使用android studio，毕竟是以后安卓的主流开发平台，早晚都是要用的。但是面对谷歌这个版本帝，每次AS每次更新之后又是要更新gradle，总是因为我们伟大的天朝的墙实在是太厚，提示各种错误。研究了很久发现了这个方法，希望可以帮助遇到同样问题的朋友（当然有VPN的同学就当我没说）！o(∩_∩)o 
+
+第一步：下载需要的gradle，根据提示的错误来，我上次提示的是不能下载gradle-2.4-all.zip
+
+                需要的打开这个网站
+
+第二步：下载好后，打开C:\Users\hiwhitley\.gradle\wrapper\dists\gradle-2.4-all目录下，
+
+             这时候因为之前下载可能会有几个缓存文件夹，如果没有就直接复制到这里。
+
+
+
+在每个里面把刚刚下载好的gradle-2.4-all.zip复制进去，千万不要解压，不要解压，不要解压（重要的事情说三遍）
+
+第三步：重启android-studio即可自动安装，就是这么简单，希望可以节省大家的时间，不要在这么无聊的事情上花费太多时间！o(∩_∩)o 
+
+https://blog.csdn.net/whitley_gong/article/details/49963899?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
