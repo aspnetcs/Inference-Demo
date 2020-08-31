@@ -1,0 +1,21 @@
+亲测Unknown host mirrors.opencas.cn You may need to adjust the proxy settings in Gradle 解决办法
+
+徐朵朵的小太阳 2020-06-03 09:51:03  1874  收藏 1
+分类专栏： 安卓bug解决
+版权
+   问题：   
+       新装As，设置了 HTTP Proxy host name 为mirrors.opencas.cn ，新项目sync不过  报错：Unknown host 'mirrors.opencas.cn'.         You may need to adjust the proxy settings in Gradle，
+
+   原因：使用了错误的网络代理配置信息
+   解决方法：
+      1.将Settings 下的Http Proxy 设置为 No Proxy 记得Apply
+
+
+
+   2.找到找到你C盘用户 文件夹下的.gradle 下 ， 看看有没有一个叫gradle.properties 文件，修改里边的网络代理配置信息，或者直接把该文件夹删除。
+
+
+
+   3.完美解决  
+   
+   https://blog.csdn.net/GodnessIsMyMine/article/details/106517777
