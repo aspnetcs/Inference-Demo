@@ -1,0 +1,5 @@
+如果不知道 bash 脚本如何使用，最简单的方式是阅读它的源码：
+
+https://github.com/MegEngine/Inference-Demo/blob/master/native/shufflenet_interface/build_inference.sh
+
+$BUILD_CMD 接受的几个参数分别是 1 2 4 8 16
